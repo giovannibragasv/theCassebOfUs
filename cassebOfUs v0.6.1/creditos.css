@@ -1,0 +1,39 @@
+@import url(//db.onlinewebfonts.com/c/d0a687dd2a0803f486cde808245bd3c5?family=Press+Gothic);
+@import url(//db.onlinewebfonts.com/c/dc6448e278deb6f5213f3c8d59fc368b?family=FFDINforPumaW01-Regular);
+
+.background{
+    background:url(imagens/the\ casseb\ of\ us\ HD\ 1.jpg);
+    min-height: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-bottom: 754px solid transparent;
+}
+
+.mainTitle{
+    font-family: 'Press Gothic', sans-serif;
+    font-size: 5rem;
+    font-weight: 300;
+    color: white;
+}
+
+.botaoCreditos{
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    border-radius: 30px;
+    background-color: transparent; 
+    border: transparent; 
+    font-size:large;
+    top: 100px;
+    cursor: pointer;
+}
+
+.textoBotaoCreditos{
+    font-family: 'FFDINforPumaW01-Regular', sans-serif;
+    color: #59595b;   
+}
+
+.textoBotaoCreditos:hover {
+    color: #eaeddf;
+}

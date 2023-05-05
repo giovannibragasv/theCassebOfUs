@@ -1,0 +1,134 @@
+@import url("https://matiaslescano.com.ar/static/fonts/pixelicious.css");
+
+.background {
+  height: 100%;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+}
+
+.backgroundImagem {
+  position: absolute;
+  left: 1220px;
+  height: 99%;
+  width: 35%;
+  background: linear-gradient(#646364, #ded7d7);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%);
+}
+
+.backgroundImagemDois {
+    position: absolute;
+    left: 1217px;
+    height: 99%;
+    width: 35%;
+    background: black;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%);
+}
+
+.backgroundImagemTres {
+    position: absolute;
+    left: 1215px;
+    height: 99%;
+    width: 35%;
+    background: white;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%);
+}
+
+.botaoTraducao {
+  position: absolute;
+  top: 500px;
+  left: 490px;
+  display: flex;
+  justify-content: left;
+  border-radius: 30px;
+  background-color: transparent;
+  border: transparent;
+
+  font-family: Press Gothic, monospace;
+  font-size: 1.5em;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+
+.botaoJogar {
+  position: absolute;
+  top: 640px;
+  left: 490px;
+  display: flex;
+  justify-content: left;
+  border-radius: 30px;
+  background-color: transparent;
+  border: transparent;
+
+  font-family: Press Gothic, monospace;
+  font-size: 1.5em;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+
+.buttonVoltarFase{
+  border-radius: 30px;
+  background-color: transparent;
+  border: transparent;
+  font-size: large;
+  cursor: pointer;
+}
+
+.textoBotaoVoltar {
+  font-family: 'FFDINforPumaW01-Regular', sans-serif;
+  color: #59595b;   
+}
+
+.textoBotaoVoltar:hover {
+  color: #eaeddf;
+  cursor: pointer;
+}
+
+.dialogoCachorro {
+  display: inline-block;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 200px;
+  left: 500px;
+  max-width: 690px;
+  text-shadow: rgba(176, 178, 178, 0.9) -0.15em -0.15em;
+}
+
+.imagemCachorro {
+    position: absolute;
+    height: 500px;
+    left: 780px;
+    width: auto;
+}
+
+img {
+  margin: 10% 10% 10% 30%;
+  width: 60%;
+  animation-name: rotacao;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+p {
+  font-family: FFDINforPumaW01-Regular, monospace;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: transparent;
+}
+
+/* Creditos rotação: https://codepen.io/entumas*/
+@keyframes rotacao {
+  from {
+    transform: rotate(-4deg);
+  }
+  to {
+    transform: rotate(4deg);
+  }
+}
