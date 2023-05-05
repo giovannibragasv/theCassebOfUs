@@ -1,0 +1,217 @@
+@import url(//db.onlinewebfonts.com/c/d0a687dd2a0803f486cde808245bd3c5?family=Press+Gothic);
+@font-face {font-family: "Press Gothic"; src: url("//db.onlinewebfonts.com/t/d0a687dd2a0803f486cde808245bd3c5.eot"); src: url("//db.onlinewebfonts.com/t/d0a687dd2a0803f486cde808245bd3c5.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d0a687dd2a0803f486cde808245bd3c5.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d0a687dd2a0803f486cde808245bd3c5.woff") format("woff"), url("//db.onlinewebfonts.com/t/d0a687dd2a0803f486cde808245bd3c5.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d0a687dd2a0803f486cde808245bd3c5.svg#Press Gothic") format("svg"); }
+@import url(//db.onlinewebfonts.com/c/dc6448e278deb6f5213f3c8d59fc368b?family=FFDINforPumaW01-Regular);
+@font-face {font-family: "FFDINforPumaW01-Regular"; src: url("//db.onlinewebfonts.com/t/dc6448e278deb6f5213f3c8d59fc368b.eot"); src: url("//db.onlinewebfonts.com/t/dc6448e278deb6f5213f3c8d59fc368b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/dc6448e278deb6f5213f3c8d59fc368b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/dc6448e278deb6f5213f3c8d59fc368b.woff") format("woff"), url("//db.onlinewebfonts.com/t/dc6448e278deb6f5213f3c8d59fc368b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/dc6448e278deb6f5213f3c8d59fc368b.svg#FFDINforPumaW01-Regular") format("svg"); }
+.text{
+    font-family: 'Press Gothic', sans-serif;
+    font-size: 5rem;
+    font-weight: 300;
+    color: white;
+}
+
+.fonte{
+    font-family: 'Archivo Narrow', sans-serif;
+    color: white;
+    text-align: center;
+} 
+
+/* .wrapper {
+    text-align: center;
+} */
+
+.button{
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    border-radius: 30px;
+    background-color: transparent; 
+    border: transparent; 
+    font-size:large;
+    top: 100px;
+}
+
+.button2{
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    border-radius: 30px;
+    background-color: transparent;
+    border: transparent; 
+    font-size:large;
+    top: 100px;
+} 
+
+.button3{
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    border-radius: 30px;
+    background-color: transparent; 
+    border: transparent; 
+    font-size:large;
+    top: 135px;
+
+} 
+
+.button4{
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    border-radius: 30px;
+    background-color: transparent; 
+    border: transparent; 
+    font-size:large;
+    top: 170px;
+} 
+
+.button5{
+    border-radius: 30px;
+    background-color: transparent; 
+    border:  transparent; 
+    font-size:large;
+    width: 100px; 
+} 
+
+.textb{
+    font-family: 'FFDINforPumaW01-Regular', sans-serif;
+    color: #59595b;   
+}
+
+.textb:hover {
+    color: #eaeddf;
+}
+    
+
+@keyframes anima {
+    0%{
+        transform: scale(1);
+    } 
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+@keyframes rotacio {
+    from { transform: rotate(-4deg); }
+    to { transform: rotate(4deg); }
+}
+
+.button:hover{
+    animation-name:anima;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+} 
+
+.imagem{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 600px;
+    animation-name: rotacio;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+} 
+
+.imagem2{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 800px;
+    animation-name: rotacio;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+} 
+
+.background{
+    background:url(imagens/the\ casseb\ of\ us\ HD\ 1.jpg);
+    min-height: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-bottom: 754px solid transparent;
+}  
+
+.background2{
+    background-color: black;
+} 
+
+.background3{
+    background:url(imagens/the\ casseb\ of\ us\ HD\ 1.jpg);
+    min-height: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-bottom: 854px solid transparent; 
+} 
+
+.card{
+    font-size: x-large;
+} 
+
+.card2{
+    position: absolute;
+    height: 500px;
+    width: 600px;
+    background-color: grey; 
+    border-radius: 30px; 
+    border-top: 10px grey solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+} 
+
+.cardJack{
+    width: 600px;
+    background-color: grey; 
+    border-radius: 30px; 
+    border: black solid; 
+} 
+
+.container{
+    background-color: black; 
+    border-top: 10px solid black;
+} 
+
+.container2{
+    position: absolute;
+    left: 100px;
+} 
+
+.container3{
+    position: absolute;
+    margin: auto;
+    text-align: center;
+} 
+
+.mapaFaseUm {
+    margin-top: 10%;
+    font-size: 25px;
+} 
+
+
+.sadseb{
+    position: absolute;
+    bottom: 125px; 
+    left: 500px;
+    
+} 
+
+.cards{
+    height: 500px;
+    width: 600px;
+    background-color: black;
+    border-radius: 30px; 
+
+} 
+
+.posit{
+    display: flex;
+    justify-content: center;
+} 
