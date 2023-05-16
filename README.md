@@ -7,7 +7,7 @@ Jogo desenvolvido em JavaScript, HTML5 e CSS3. Somos alunos do primeiro semestre
 -Como jogar: Nosso jogo é bem simples. A dungeon se passará em um prédio usado como base pelo Girotto. O jogador deve passar por 3 andares até chegar na batalha final. Os comandos são W, A, S, D para movimentar o personagem e I para interações com itens distribuídos pelo mapa. Cada andar terá um desafio diferente, e o jogador deve prestar atenção em dicas espalhadas pelo mapa e nas cutscenes do jogo para solucionar esses desafios e conseguir zerar o jogo
 
 -Desenvolvedores: 
-Antonio Heitor 
-Giovanni Braga
-Arthur Nunes 
+Antonio Heitor, 
+Giovanni Braga,
+Arthur Nunes, 
 Caua Maia
