@@ -8,14 +8,22 @@ Jogo desenvolvido em JavaScript, HTML5 e CSS3. Somos alunos do primeiro semestre
 
 -Regras do jogo:Nosso jogo é feito apenas de texto como foi dito na base do jogo então aqui estão algumas legendas do que cada caracter deve significar
 -----------------------------------------------------
-&: Símbolo que representa o jogador.    
+&: Símbolo que representa o jogador.
+
 *: Símbolo que representa uma parede, o jogador ao se movimentar não pode passar pela parede.
+
 @: Símbolo que representa a chave para abrir a porta para finalizar a fase, a porta abre no momento que o jogador interage com a chave.
+
 D: Símbolo que representa a porta fechada.
+
 =: Símbolo que representa a porta aberta quando o jogador interage com a chave.
+
 O: Símbolo que representa um botão que o usuário pode interagir, o botão fica no chão e o jogador deve ficar em cima dele para poder interagir.
+
 #: Símbolo que representa um espinho. A fase é reiniciada quando o jogador toca no espinho, caso a fase seja reiniciada três vezes, o jogo volta para o menu principal.
+
 >: Símbolo que representa um teletransporte. O teletransporte sempre deve vir em pares, quando o jogador toca em um ele é transportado para o outro e vice-versa.
+
 -----------------------------------------------------
 
 -Desenvolvedores: 
