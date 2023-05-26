@@ -35,7 +35,7 @@ Atualmente, estamos trabalhando para implementar mais mecânicas para o nosso jo
 ## 👨🏻‍💻 Desenvolvedores: 
 * Antonio Heitor
 * Arthur Nunes
-* Caua Maia
+* Cauã Maia
 * Giovanni Braga
  
 
